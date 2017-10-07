@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{f2fe1fbd-68e0-4e43-b1c9-0819fc96b4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\MainHeader">
+      <UniqueIdentifier>{5b1c333e-5072-4870-a99b-9b32b7019e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. SceneObj">
+      <UniqueIdentifier>{cc0d7e62-ba11-48ef-a697-4ed3a3c14a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. MainGame">
+      <UniqueIdentifier>{7852135b-da5a-4737-94bc-fd653b429dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object">
+      <UniqueIdentifier>{94be3677-259c-46f5-b68d-23c490c00da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager">
+      <UniqueIdentifier>{62536548-2445-411e-a767-1dda9618afeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\SceneMgr">
+      <UniqueIdentifier>{f79f3a71-1694-4162-a147-39ea10aa21dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\TextureMgr">
+      <UniqueIdentifier>{9430b7a9-cc41-4cc6-86ff-eef12c128d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\TextureMgr\Texture">
+      <UniqueIdentifier>{d56b3391-0d0b-4175-8894-384329715339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\TextureMgr\Texture\Single">
+      <UniqueIdentifier>{00b4330c-5a43-4c4d-8ba8-cd5390a134de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\TextureMgr\Texture\Multi">
+      <UniqueIdentifier>{4bbf84f3-b06c-4cca-9369-14f1cfa97130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\ObjMgr">
+      <UniqueIdentifier>{07cf6e3c-f7fc-4346-816f-6d3e77021adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DesignPattern">
+      <UniqueIdentifier>{cadfbc3e-4edb-4bd7-ae91-0efdb4b15c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DesignPattern\Object">
+      <UniqueIdentifier>{26678321-f800-45cd-8f1e-8a7e29dbd8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DesignPattern\Object\Logo">
+      <UniqueIdentifier>{9c588e93-0486-4526-9025-290d3eafb108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DesignPattern\Object\Stage1">
+      <UniqueIdentifier>{1101867f-798f-4480-8088-7a12d3b9bb85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\TimeMgr">
+      <UniqueIdentifier>{9297d942-15d1-43d6-b10e-784717a7031b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\SortMgr">
+      <UniqueIdentifier>{3d40ad81-8e5a-4efc-9d5e-f42c480ab105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\KeyMgr">
+      <UniqueIdentifier>{8519a198-2248-4d68-98ef-671ec6c8607f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\AStar">
+      <UniqueIdentifier>{537fef7c-f2f9-46a8-a380-3e2b82982306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DesignPattern\Factory">
+      <UniqueIdentifier>{35395b1f-9c01-4470-ac54-058437c6533c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\MathMgr">
+      <UniqueIdentifier>{6d75f5a2-f581-451b-8977-0c349031c9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DesignPattern\Object\Village">
+      <UniqueIdentifier>{90d1d68f-3bf5-4170-b430-6a12a8acad8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. SceneObj\01. Logo">
+      <UniqueIdentifier>{79d63540-8c5b-47de-ae22-281803f55032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. SceneObj\02. Village">
+      <UniqueIdentifier>{25eef3c3-ff42-44f8-803b-398d646b05f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. SceneObj\03. Stage">
+      <UniqueIdentifier>{aa6c972f-7e3e-44cb-957b-4e6f1e682bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Logo">
+      <UniqueIdentifier>{0a4bf641-7d79-497f-80ae-b1afc1a554b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Logo\Dynamic">
+      <UniqueIdentifier>{44012d48-f9bf-4481-adb0-277709e8b564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Logo\Static">
+      <UniqueIdentifier>{f8ec2ecb-6017-4fd8-a8ce-926cea84343d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Logo\Static\Title">
+      <UniqueIdentifier>{098db101-7b5a-461c-948e-9ca5d7952f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Logo\Static\Button">
+      <UniqueIdentifier>{9a60e887-5b89-4062-babc-35aeff7c9758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Logo\Static\Button\Start">
+      <UniqueIdentifier>{e8ff02e9-a6e3-48c9-8eab-c78a8e02a0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Logo\Static\Button\Load">
+      <UniqueIdentifier>{ede0c52f-f2ea-4430-bc80-7665866aa0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Logo\Static\Button\End">
+      <UniqueIdentifier>{34048730-880f-48d1-8721-6d5615b7620d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. Village">
+      <UniqueIdentifier>{dd1a49e2-fc2f-4e64-9d35-ce0b7a7b8470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. Village\Dynamic">
+      <UniqueIdentifier>{fb80e8ca-73b9-49e5-9781-0f185ce8ea74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. Village\Static">
+      <UniqueIdentifier>{56d5b855-aa82-48db-939f-17961f6da967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. Village\Static\Map">
+      <UniqueIdentifier>{602e684c-be18-4956-af75-f2004814975b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\01. Logo\Dynamic\Mouse">
+      <UniqueIdentifier>{223ba225-13e6-43b8-8d42-c6eea2a04bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. Village\Dynamic\Mouse">
+      <UniqueIdentifier>{26da870a-4cb1-4c24-bcec-525bcea57171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. Village\Dynamic\Player">
+      <UniqueIdentifier>{c98b2422-5941-4c4a-b215-366ff8133042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. Village\Static\Warp">
+      <UniqueIdentifier>{85f3fdea-3643-416d-9a07-346c15a3fccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. Village\Static\Object">
+      <UniqueIdentifier>{d5bf9f05-3608-47d3-9b20-ee71ee0ec679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Object\02. Village\Dynamic\NPC">
+      <UniqueIdentifier>{95dd01d7-d284-4a5d-bc6e-4ec167003e38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Device.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MainHeader\Constant.h">
+      <Filter>헤더 파일\MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MainHeader\Define.h">
+      <Filter>헤더 파일\MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MainHeader\Macro.h">
+      <Filter>헤더 파일\MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MainHeader\Struct.h">
+      <Filter>헤더 파일\MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObj.h">
+      <Filter>01. SceneObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03. Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>99. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MainHeader\Enum.h">
+      <Filter>헤더 파일\MainHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>01. SceneObj\01. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>01. SceneObj\03. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03. Manager\ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>02. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoStatic.h">
+      <Filter>02. Object\01. Logo\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoDynamic.h">
+      <Filter>02. Object\01. Logo\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>97. DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjProto.h">
+      <Filter>97. DesignPattern\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoObjProto.h">
+      <Filter>97. DesignPattern\Object\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\TextureMgr.h">
+      <Filter>03. Manager\TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Texture.h">
+      <Filter>03. Manager\TextureMgr\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SingleTexture.h">
+      <Filter>03. Manager\TextureMgr\Texture\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\MultiTexture.h">
+      <Filter>03. Manager\TextureMgr\Texture\Multi</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>03. Manager\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SortMgr.h">
+      <Filter>03. Manager\SortMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03. Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>03. Manager\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>97. DesignPattern\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>02. Object\01. Logo\Static\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Village.h">
+      <Filter>01. SceneObj\02. Village</Filter>
+    </ClInclude>
+    <ClInclude Include="StartBtn.h">
+      <Filter>02. Object\01. Logo\Static\Button\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="MathMgr.h">
+      <Filter>03. Manager\MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageObjProto.h">
+      <Filter>97. DesignPattern\Object\Village</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageStatic.h">
+      <Filter>02. Object\02. Village\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageDynamic.h">
+      <Filter>02. Object\02. Village\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageMap.h">
+      <Filter>02. Object\02. Village\Static\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>02. Object\01. Logo\Dynamic\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageMouse.h">
+      <Filter>02. Object\02. Village\Dynamic\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="VillagePlayer.h">
+      <Filter>02. Object\02. Village\Dynamic\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageWarp.h">
+      <Filter>02. Object\02. Village\Static\Warp</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageObject.h">
+      <Filter>02. Object\02. Village\Static\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="VillageNPC.h">
+      <Filter>02. Object\02. Village\Dynamic\NPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Device.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObj.cpp">
+      <Filter>01. SceneObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03. Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>99. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>01. SceneObj\01. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>01. SceneObj\03. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03. Manager\ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>02. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoStatic.cpp">
+      <Filter>02. Object\01. Logo\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoDynamic.cpp">
+      <Filter>02. Object\01. Logo\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>97. DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjProto.cpp">
+      <Filter>97. DesignPattern\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoObjProto.cpp">
+      <Filter>97. DesignPattern\Object\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\TextureMgr.cpp">
+      <Filter>03. Manager\TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Texture.cpp">
+      <Filter>03. Manager\TextureMgr\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\SingleTexture.cpp">
+      <Filter>03. Manager\TextureMgr\Texture\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\MultiTexture.cpp">
+      <Filter>03. Manager\TextureMgr\Texture\Multi</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>03. Manager\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SortMgr.cpp">
+      <Filter>03. Manager\SortMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03. Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>03. Manager\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>02. Object\01. Logo\Static\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Village.cpp">
+      <Filter>01. SceneObj\02. Village</Filter>
+    </ClCompile>
+    <ClCompile Include="StartBtn.cpp">
+      <Filter>02. Object\01. Logo\Static\Button\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="MathMgr.cpp">
+      <Filter>03. Manager\MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageObjProto.cpp">
+      <Filter>97. DesignPattern\Object\Village</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageStatic.cpp">
+      <Filter>02. Object\02. Village\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageDynamic.cpp">
+      <Filter>02. Object\02. Village\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageMap.cpp">
+      <Filter>02. Object\02. Village\Static\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>02. Object\01. Logo\Dynamic\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageMouse.cpp">
+      <Filter>02. Object\02. Village\Dynamic\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="VillagePlayer.cpp">
+      <Filter>02. Object\02. Village\Dynamic\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageWarp.cpp">
+      <Filter>02. Object\02. Village\Static\Warp</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageObject.cpp">
+      <Filter>02. Object\02. Village\Static\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="VillageNPC.cpp">
+      <Filter>02. Object\02. Village\Dynamic\NPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

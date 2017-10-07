@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD50114F-7088-4F25-88C3-9F34BD7A91E9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>../Common;../MainHeader;../Include;$(IncludePath)</IncludePath>
+    <LibraryPath>../Lib/x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>../Common;../MainHeader;../Include;$(IncludePath)</IncludePath>
+    <LibraryPath>../Lib/x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Client.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\Device.h" />
+    <ClInclude Include="..\Common\MultiTexture.h" />
+    <ClInclude Include="..\Common\SingleTexture.h" />
+    <ClInclude Include="..\Common\Texture.h" />
+    <ClInclude Include="..\Common\TextureMgr.h" />
+    <ClInclude Include="..\MainHeader\Constant.h" />
+    <ClInclude Include="..\MainHeader\Define.h" />
+    <ClInclude Include="..\MainHeader\Enum.h" />
+    <ClInclude Include="..\MainHeader\Macro.h" />
+    <ClInclude Include="..\MainHeader\Struct.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="LogoDynamic.h" />
+    <ClInclude Include="LogoObjProto.h" />
+    <ClInclude Include="LogoStatic.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MathMgr.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="Obj.h" />
+    <ClInclude Include="ObjFactory.h" />
+    <ClInclude Include="ObjMgr.h" />
+    <ClInclude Include="ObjProto.h" />
+    <ClInclude Include="Prototype.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="SceneObj.h" />
+    <ClInclude Include="SortMgr.h" />
+    <ClInclude Include="Stage1.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TimeMgr.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="StartBtn.h" />
+    <ClInclude Include="Village.h" />
+    <ClInclude Include="VillageDynamic.h" />
+    <ClInclude Include="VillageMap.h" />
+    <ClInclude Include="VillageMouse.h" />
+    <ClInclude Include="VillageNPC.h" />
+    <ClInclude Include="VillageObject.h" />
+    <ClInclude Include="VillageObjProto.h" />
+    <ClInclude Include="VillagePlayer.h" />
+    <ClInclude Include="VillageStatic.h" />
+    <ClInclude Include="VillageWarp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\Device.cpp" />
+    <ClCompile Include="..\Common\MultiTexture.cpp" />
+    <ClCompile Include="..\Common\SingleTexture.cpp" />
+    <ClCompile Include="..\Common\Texture.cpp" />
+    <ClCompile Include="..\Common\TextureMgr.cpp" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="LogoDynamic.cpp" />
+    <ClCompile Include="LogoObjProto.cpp" />
+    <ClCompile Include="LogoStatic.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MathMgr.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="Obj.cpp" />
+    <ClCompile Include="ObjMgr.cpp" />
+    <ClCompile Include="ObjProto.cpp" />
+    <ClCompile Include="Prototype.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="SceneObj.cpp" />
+    <ClCompile Include="SortMgr.cpp" />
+    <ClCompile Include="Stage1.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="StartBtn.cpp" />
+    <ClCompile Include="Village.cpp" />
+    <ClCompile Include="VillageDynamic.cpp" />
+    <ClCompile Include="VillageMap.cpp" />
+    <ClCompile Include="VillageMouse.cpp" />
+    <ClCompile Include="VillageNPC.cpp" />
+    <ClCompile Include="VillageObject.cpp" />
+    <ClCompile Include="VillageObjProto.cpp" />
+    <ClCompile Include="VillagePlayer.cpp" />
+    <ClCompile Include="VillageStatic.cpp" />
+    <ClCompile Include="VillageWarp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
